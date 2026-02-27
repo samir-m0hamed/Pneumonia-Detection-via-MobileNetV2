@@ -34,7 +34,7 @@ This project implements a complete medical image classification workflow:
 ## 📊 Training Performance
 
 ### Phase 1 — Feature Extraction
-![Feature Extraction Results](Pneumpnia%20Detection%20via%20MobileNetV2/Feature%20Extraction%20Results.png)
+![Feature Extraction Results](Pneumonia%20Detection%20via%20MobileNetV2/Feature%20Extraction%20Results.png)
 
 | Metric | Observation |
 |---|---|
@@ -48,7 +48,7 @@ This project implements a complete medical image classification workflow:
 ---
 
 ### Phase 2 — Fine-Tuning
-![Fine Tuning Results](Pneumpnia%20Detection%20via%20MobileNetV2/Fine%20Tuning%20Results.png)
+![Fine Tuning Results](Pneumonia%20Detection%20via%20MobileNetV2/Fine%20Tuning%20Results.png)
 
 | Metric | Observation |
 |---|---|
@@ -63,7 +63,7 @@ This project implements a complete medical image classification workflow:
 
 ## 📉 ROC Curve
 
-![ROC Curve](Pneumpnia%20Detection%20via%20MobileNetV2/ROC%20Curve.png)
+![ROC Curve](Pneumonia%20Detection%20via%20MobileNetV2/ROC%20Curve.png)
 
 | Metric | Value |
 |---|---|
@@ -76,13 +76,13 @@ This project implements a complete medical image classification workflow:
 
 Model sensitivity and precision were evaluated across multiple probability thresholds to identify the best recall value ( capturing more pneumonia cases ).
 
-![Threshold Tuning](Pneumpnia%20Detection%20via%20MobileNetV2/Threshold%20Tuning.png)
+![Threshold Tuning](Pneumonia%20Detection%20via%20MobileNetV2/Threshold%20Tuning.png)
 
 ---
 
 ## 🔬 Confusion Matrix
 
-![Confusion Matrix](Pneumpnia%20Detection%20via%20MobileNetV2/Confusion%20Matrix.png)
+![Confusion Matrix](Pneumonia%20Detection%20via%20MobileNetV2/Confusion%20Matrix.png)
 
 | Actual \ Predicted | Normal | Pneumonia |
 |---|---|---|
