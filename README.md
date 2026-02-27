@@ -145,7 +145,7 @@ pneumonia-mobilenetv2/
 │
 ├── Pneumonia_Detection_via_MobileNetV2.ipynb
 │
-├── Pneumpnia Detection via MobileNetV2/
+├── Pneumonia Detection via MobileNetV2/
 │   ├── Confusion Matrix.png
 │   ├── Feature Extraction Results.png
 │   ├── Fine Tuning Results.png
