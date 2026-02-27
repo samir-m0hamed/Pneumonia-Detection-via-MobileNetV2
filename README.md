@@ -1,4 +1,4 @@
-# Pneumonia Detection via MobileNetV2 (Transfer Learning & FineTuning)
+# Pneumonia Detection via MobileNetV2 (Transfer Learning & Fine Tuning)
 
 Deep learning system for automated pneumonia classification from chest X-ray images using a pretrained MobileNetV2 architecture.  
 The pipeline follows a two-stage training strategy: feature extraction and selective fine-tuning to enhance diagnostic performance and model generalization.
@@ -34,7 +34,7 @@ This project implements a complete medical image classification workflow:
 ## 📊 Training Performance
 
 ### Phase 1 — Feature Extraction
-![Feature Extraction Results](Pneumpnia20%Detection20%via20%MobileNetV2/Feature20%Extraction20%Results.png)
+![Feature Extraction Results](Pneumpnia%20Detection%20via%20MobileNetV2/Feature%20Extraction%20Results.png)
 
 | Metric | Observation |
 |---|---|
@@ -48,7 +48,7 @@ This project implements a complete medical image classification workflow:
 ---
 
 ### Phase 2 — Fine-Tuning
-![Fine Tuning Results](Pneumpnia20%Detection20%via20%MobileNetV2/Fine20%Tuning20%Results.png)
+![Fine Tuning Results](Pneumpnia%20Detection%20via%20MobileNetV2/Fine%20Tuning%20Results.png)
 
 | Metric | Observation |
 |---|---|
@@ -63,7 +63,7 @@ This project implements a complete medical image classification workflow:
 
 ## 📉 ROC Curve
 
-![ROC Curve](Pneumpnia20%Detection20%via20%MobileNetV2/ROC20%Curve.png)
+![ROC Curve](Pneumpnia%20Detection%20via%20MobileNetV2/ROC%20Curve.png)
 
 | Metric | Value |
 |---|---|
@@ -72,9 +72,17 @@ This project implements a complete medical image classification workflow:
 
 ---
 
+## 🎯 Decision Threshold Optimization
+
+Model sensitivity and precision were evaluated across multiple probability thresholds to identify the best recall value ( capturing more pneumonia cases ).
+
+![Threshold Tuning](Pneumpnia%20Detection%20via%20MobileNetV2/Threshold%20Tuning.png)
+
+---
+
 ## 🔬 Confusion Matrix
 
-![Confusion Matrix](Pneumpnia20%Detection20%via20%MobileNetV2/Confusion20%Matrix.png)
+![Confusion Matrix](Pneumpnia%20Detection%20via%20MobileNetV2/Confusion%20Matrix.png)
 
 | Actual \ Predicted | Normal | Pneumonia |
 |---|---|---|
