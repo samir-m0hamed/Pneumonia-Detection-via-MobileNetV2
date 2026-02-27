@@ -1,4 +1,4 @@
-# Pneumonia Detection via MobileNetV2 (Transfer Learning & Fine-Tuning)
+# Pneumonia Detection via MobileNetV2 (Transfer Learning & FineTuning)
 
 Deep learning system for automated pneumonia classification from chest X-ray images using a pretrained MobileNetV2 architecture.  
 The pipeline follows a two-stage training strategy: feature extraction and selective fine-tuning to enhance diagnostic performance and model generalization.
@@ -34,7 +34,7 @@ This project implements a complete medical image classification workflow:
 ## 📊 Training Performance
 
 ### Phase 1 — Feature Extraction
-![Feature Extraction Results](Pneumpnia Detection via MobileNetV2/Feature Extraction Results.png)
+![Feature Extraction Results](Pneumpnia20%Detection20%via20%MobileNetV2/Feature20%Extraction20%Results.png)
 
 | Metric | Observation |
 |---|---|
@@ -48,7 +48,7 @@ This project implements a complete medical image classification workflow:
 ---
 
 ### Phase 2 — Fine-Tuning
-![Fine Tuning Results](Pneumpnia Detection via MobileNetV2/Fine Tuning Results.png)
+![Fine Tuning Results](Pneumpnia20%Detection20%via20%MobileNetV2/Fine20%Tuning20%Results.png)
 
 | Metric | Observation |
 |---|---|
@@ -63,7 +63,7 @@ This project implements a complete medical image classification workflow:
 
 ## 📉 ROC Curve
 
-![ROC Curve](Pneumpnia Detection via MobileNetV2/ROC Curve.png)
+![ROC Curve](Pneumpnia20%Detection20%via20%MobileNetV2/ROC20%Curve.png)
 
 | Metric | Value |
 |---|---|
@@ -74,7 +74,7 @@ This project implements a complete medical image classification workflow:
 
 ## 🔬 Confusion Matrix
 
-![Confusion Matrix](Pneumpnia Detection via MobileNetV2/Confusion Matrix.png)
+![Confusion Matrix](Pneumpnia20%Detection20%via20%MobileNetV2/Confusion20%Matrix.png)
 
 | Actual \ Predicted | Normal | Pneumonia |
 |---|---|---|
